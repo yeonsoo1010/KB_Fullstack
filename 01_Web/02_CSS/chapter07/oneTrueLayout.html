@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* clear 사용하기 */
+      /* #top {
+        background-color: green;
+      }
+
+      #left {
+        background-color: red;
+        float: left;
+        width: 30%;
+      }
+      #right {
+        background-color: blue;
+        float: left;
+        width: 70%;
+      }
+
+      #bottom {
+        background-color: purple;
+        clear: left; */
+
+      /* oneTrue 레이아웃 사용하기 - 부모요소에 overflow: hidden;*/
+      #top {
+        background-color: green;
+      }
+
+      #middle {
+        overflow: hidden;
+      }
+      #left {
+        background-color: red;
+        float: left;
+        width: 30%;
+      }
+      #right {
+        background-color: blue;
+        float: left;
+        width: 70%;
+      }
+
+      #bottom {
+        background-color: purple;
+      }
+      /* flex 레이아웃  */
+      /* #top {
+        background-color: green;
+      }
+
+      #middle {
+        display: flex;
+      }
+      #left {
+        background-color: red;
+        float: left;
+        width: 30%;
+      }
+      #right {
+        background-color: blue;
+        float: left;
+        width: 70%;
+      }
+
+      #bottom {
+        background-color: purple;
+      } */
+    </style>
+  </head>
+  <body>
+    <div id="top">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit cumque
+      reprehenderit, blanditiis ratione eligendi aliquam temporibus in a nam vel
+      dolore totam velit ipsum incidunt. Facilis omnis officia velit numquam id
+      dolorum, tenetur vel natus saepe modi minima placeat molestiae aspernatur
+      perspiciatis aperiam tempore iusto neque voluptatibus maxime animi quod.
+    </div>
+    <div id="middle">
+      <div id="left">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+        cupiditate.
+      </div>
+      <div id="right">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quidem
+        facilis hic eius, ratione consequatur rem temporibus totam, possimus
+        pariatur quas sint at numquam deserunt culpa officia laudantium vel. Ut.
+      </div>
+    </div>
+    <div id="bottom">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolores
+      rerum sunt harum accusamus natus provident dignissimos laudantium autem
+      perferendis reiciendis, magni necessitatibus assumenda fuga repellendus
+      error quo facilis? Nisi, harum. Numquam enim quia neque magni fugit
+      laboriosam adipisci maiores ullam optio minima earum, harum obcaecati
+      dolores labore nesciunt minus!
+    </div>
+  </body>
+</html>

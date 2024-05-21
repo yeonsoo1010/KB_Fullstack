@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      function loopf(iter, callback) {
+        for (i = 0; i < iter; i++) {
+          callback();
+        }
+      }
+      let func = function () {
+        alert("함수 호출");
+      };
+
+      loopf(3, func);
+    </script>
+  </head>
+  <body></body>
+</html>

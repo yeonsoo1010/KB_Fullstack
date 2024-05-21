@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      window.onload = function () {
+        let output = "";
+        for (let i = 0; i < 256; i++) {
+          output += "<div></div>";
+          // div 태그들이 256개 생김
+        }
+        document.body.innerHTML = output;
+
+        // 생긴 div 태그들에 색과 크기를 지정하기
+        // 문서 객체(div 태그들) 선택
+        let divs = document.querySelectorAll("div");
+
+        // querySelectorAll로 여러 개 선택하면 무조건 loop!
+        // loop로 각 div마다 색과 크기 넣기
+        for (let i = 0; i < 256; i++) {
+          let nthdiv = divs[i];
+
+          nthdiv.style.height = "2px";
+          nthdiv.style.backgroundColor = `rgb(${i}, ${i}, ${i})`;
+        }
+      };
+    </script>
+  </head>
+  <body></body>
+</html>

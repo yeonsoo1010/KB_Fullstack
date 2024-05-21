@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      div#all {
+        width: auto;
+        height: auto;
+        border-radius: 30%;
+        background-color: blue;
+      }
+      #all ul {
+        /* overflow: hidden; */
+
+        border-radius: 30%;
+        background-color: green;
+      }
+
+      li {
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+
+        padding: 20px 0;
+
+        float: left;
+      }
+
+      li:nth-child(odd) {
+        background-color: darkred;
+      }
+      li:nth-child(even) {
+        background-color: red;
+      }
+
+      li:nth-child(1) {
+        border-radius: 10px 0 0 10px;
+      }
+      li:nth-last-child(1) {
+        border-radius: 0 10px 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="all">
+      <ul>
+        <li>첫 번째</li>
+        <li>두 번째</li>
+        <li>세 번째</li>
+        <li>네 번째</li>
+        <li>다섯 번째</li>
+        <li>여섯 번째</li>
+        <li>일곱 번째</li>
+      </ul>
+    </div>
+  </body>
+</html>
