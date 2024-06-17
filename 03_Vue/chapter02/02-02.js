@@ -1,4 +1,4 @@
-let msg = "GLOBAL";
+let msg = "GLOBAL"; // 전역변수
 
 function outer() {
   let msg = "OUTER";
@@ -8,6 +8,7 @@ function outer() {
     console.log(msg); //block
   }
   console.log(this.msg); //undefined
+  console.log(msg);
 }
 
 const Outer = function () {
