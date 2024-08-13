@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BoardMapperTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BoardMapperTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.scoula.board.mapper.html">org.scoula.board.mapper</a> &gt; BoardMapperTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.156s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">BoardMapper의 새글 작성</td>
+<td class="success">create()</td>
+<td class="success">0.087s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">BoardMapper의 글 삭제</td>
+<td class="success">delete()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">BoardMapper의 게시글 읽기</td>
+<td class="success">get()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getList()</td>
+<td class="success">getList()</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">BoardMapper의 글 수정</td>
+<td class="success">update()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>INFO : org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+INFO : org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5bd82fed, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@c1bd0be, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@476b0ae6, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1c6804cd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@655f7ea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@549949be, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b3a45f1, org.springframework.test.context.event.EventPublishingTestExecutionListener@17a87e37]
+INFO : com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO : com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+INFO : com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO : jdbc.sqlonly - insert into tbl_board (title, content, writer) values ('새로 작성하는 글', '새로 작성하는 내용', 'user0') 
+
+INFO : jdbc.sqltiming - insert into tbl_board (title, content, writer) values ('새로 작성하는 글', '새로 작성하는 내용', 'user0') 
+ {executed in 5 msec}
+INFO : jdbc.sqlonly - SELECT LAST_INSERT_ID() 
+
+INFO : jdbc.sqltiming - SELECT LAST_INSERT_ID() 
+ {executed in 12 msec}
+INFO : jdbc.resultset - 1. ResultSet.new ResultSet returned 
+INFO : jdbc.resultset - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@372ca2d6 - Field level information: 
+	com.mysql.cj.result.Field@3204e238[dbName=null,tableName=null,originalTableName=null,columnName=LAST_INSERT_ID(),originalColumnName=null,mysqlType=8(FIELD_TYPE_BIGINT UNSIGNED),sqlType=-5,flags= BINARY UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+INFO : jdbc.resultset - 1. ResultSet.getType() returned 1003
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(LAST_INSERT_ID()) returned 23
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultsettable - 
+|-----------------|
+|last_insert_id() |
+|-----------------|
+|23               |
+|-----------------|
+
+INFO : jdbc.resultset - 1. ResultSet.next() returned false
+INFO : jdbc.resultset - 1. ResultSet.close() returned void
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=23, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=null, updateDate=null)
+INFO : jdbc.sqlonly - delete from tbl_board where no = 3 
+
+INFO : jdbc.sqltiming - delete from tbl_board where no = 3 
+ {executed in 2 msec}
+INFO : org.scoula.board.mapper.BoardMapperTest - DELETE COUNT: 0
+INFO : jdbc.sqlonly - update tbl_board set title = '수정된 제목', content = '수정된 내용', writer = 'user00', update_date = 
+now() where no = 5 
+
+INFO : jdbc.sqltiming - update tbl_board set title = '수정된 제목', content = '수정된 내용', writer = 'user00', update_date = 
+now() where no = 5 
+ {executed in 8 msec}
+INFO : org.scoula.board.mapper.BoardMapperTest - UPDATE COUNT: 1
+INFO : jdbc.sqlonly - select * from tbl_board order by no desc 
+
+INFO : jdbc.sqltiming - select * from tbl_board order by no desc 
+ {executed in 1 msec}
+INFO : jdbc.resultset - 1. ResultSet.new ResultSet returned 
+INFO : jdbc.resultset - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@1afd72ef - Field level information: 
+	com.mysql.cj.result.Field@2cc75074[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=no,originalColumnName=no,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@445bb139[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=title,originalColumnName=title,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@b9a77c8[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=content,originalColumnName=content,mysqlType=252(FIELD_TYPE_TEXT),sqlType=-1,flags= BLOB, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@7a81065e[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=writer,originalColumnName=writer,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@6cd3ad8a[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=reg_date,originalColumnName=reg_date,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@75181b50[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=update_date,originalColumnName=update_date,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+INFO : jdbc.resultset - 1. ResultSet.getType() returned 1003
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 23
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@6e7c351d
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:50:56.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:50:56.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 22
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@26d41711
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:50:35.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:50:35.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 21
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@298f0a0b
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:50:04.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:50:04.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 20
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@2b960a7
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:49:00.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:49:00.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 19
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@31dfc6f5
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:46:19.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:46:19.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 18
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@37b52340
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:46:02.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:46:02.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 17
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@663bb8ef
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:45:49.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:45:49.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 16
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@2f4e40d7
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:44:14.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:44:14.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 15
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@60e9c3a5
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:43:55.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:43:55.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 14
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@7e5843db
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:41:58.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:41:58.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 13
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@459f703f
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:41:38.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:41:38.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 12
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@188ac8a3
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:37:23.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:37:23.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 11
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@3650d4fc
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:37:12.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:37:12.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 10
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@aaa0f76
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:37:04.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:37:04.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 9
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@4acc5dff
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:35:48.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:35:48.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 8
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@57f9b467
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:35:17.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:35:17.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 7
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@23f86d8a
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:33:45.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:33:45.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 6
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 새로 작성하는 글
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@2264ea32
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 17:28:50.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:28:50.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 5
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 수정된 제목
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@7d3c09ec
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user00
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 16:44:18.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 17:50:56.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 4
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 테스트 제목4
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@71e4b308
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user00
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 16:44:18.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 16:44:18.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 2
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 테스트 제목2
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@11900483
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user00
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 16:44:18.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 16:44:18.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 1
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 테스트 제목1
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@14a049f9
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user00
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 16:44:18.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 16:44:18.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultsettable - 
+|---|----------|---------|-------|----------------------|----------------------|
+|no |title     |content  |writer |reg_date              |update_date           |
+|---|----------|---------|-------|----------------------|----------------------|
+|23 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:50:56.0 |2024-08-13 17:50:56.0 |
+|22 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:50:35.0 |2024-08-13 17:50:35.0 |
+|21 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:50:04.0 |2024-08-13 17:50:04.0 |
+|20 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:49:00.0 |2024-08-13 17:49:00.0 |
+|19 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:46:19.0 |2024-08-13 17:46:19.0 |
+|18 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:46:02.0 |2024-08-13 17:46:02.0 |
+|17 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:45:49.0 |2024-08-13 17:45:49.0 |
+|16 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:44:14.0 |2024-08-13 17:44:14.0 |
+|15 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:43:55.0 |2024-08-13 17:43:55.0 |
+|14 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:41:58.0 |2024-08-13 17:41:58.0 |
+|13 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:41:38.0 |2024-08-13 17:41:38.0 |
+|12 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:37:23.0 |2024-08-13 17:37:23.0 |
+|11 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:37:12.0 |2024-08-13 17:37:12.0 |
+|10 |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:37:04.0 |2024-08-13 17:37:04.0 |
+|9  |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:35:48.0 |2024-08-13 17:35:48.0 |
+|8  |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:35:17.0 |2024-08-13 17:35:17.0 |
+|7  |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:33:45.0 |2024-08-13 17:33:45.0 |
+|6  |새로 작성하는 글 |[unread] |user0  |2024-08-13 17:28:50.0 |2024-08-13 17:28:50.0 |
+|5  |수정된 제목    |[unread] |user00 |2024-08-13 16:44:18.0 |2024-08-13 17:50:56.0 |
+|4  |테스트 제목4   |[unread] |user00 |2024-08-13 16:44:18.0 |2024-08-13 16:44:18.0 |
+|2  |테스트 제목2   |[unread] |user00 |2024-08-13 16:44:18.0 |2024-08-13 16:44:18.0 |
+|1  |테스트 제목1   |[unread] |user00 |2024-08-13 16:44:18.0 |2024-08-13 16:44:18.0 |
+|---|----------|---------|-------|----------------------|----------------------|
+
+INFO : jdbc.resultset - 1. ResultSet.next() returned false
+INFO : jdbc.resultset - 1. ResultSet.close() returned void
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=23, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:50:56 KST 2024, updateDate=Tue Aug 13 17:50:56 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=22, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:50:35 KST 2024, updateDate=Tue Aug 13 17:50:35 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=21, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:50:04 KST 2024, updateDate=Tue Aug 13 17:50:04 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=20, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:49:00 KST 2024, updateDate=Tue Aug 13 17:49:00 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=19, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:46:19 KST 2024, updateDate=Tue Aug 13 17:46:19 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=18, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:46:02 KST 2024, updateDate=Tue Aug 13 17:46:02 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=17, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:45:49 KST 2024, updateDate=Tue Aug 13 17:45:49 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=16, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:44:14 KST 2024, updateDate=Tue Aug 13 17:44:14 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=15, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:43:55 KST 2024, updateDate=Tue Aug 13 17:43:55 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=14, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:41:58 KST 2024, updateDate=Tue Aug 13 17:41:58 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=13, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:41:38 KST 2024, updateDate=Tue Aug 13 17:41:38 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=12, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:37:23 KST 2024, updateDate=Tue Aug 13 17:37:23 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=11, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:37:12 KST 2024, updateDate=Tue Aug 13 17:37:12 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=10, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:37:04 KST 2024, updateDate=Tue Aug 13 17:37:04 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=9, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:35:48 KST 2024, updateDate=Tue Aug 13 17:35:48 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=8, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:35:17 KST 2024, updateDate=Tue Aug 13 17:35:17 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=7, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:33:45 KST 2024, updateDate=Tue Aug 13 17:33:45 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=6, title=새로 작성하는 글, content=새로 작성하는 내용, writer=user0, regDate=Tue Aug 13 17:28:50 KST 2024, updateDate=Tue Aug 13 17:28:50 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=5, title=수정된 제목, content=수정된 내용, writer=user00, regDate=Tue Aug 13 16:44:18 KST 2024, updateDate=Tue Aug 13 17:50:56 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=4, title=테스트 제목4, content=테스트 내용4, writer=user00, regDate=Tue Aug 13 16:44:18 KST 2024, updateDate=Tue Aug 13 16:44:18 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=2, title=테스트 제목2, content=테스트 내용2, writer=user00, regDate=Tue Aug 13 16:44:18 KST 2024, updateDate=Tue Aug 13 16:44:18 KST 2024)
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=1, title=테스트 제목1, content=테스트 내용1, writer=user00, regDate=Tue Aug 13 16:44:18 KST 2024, updateDate=Tue Aug 13 16:44:18 KST 2024)
+INFO : jdbc.sqlonly - select * from tbl_board where no = 1 
+
+INFO : jdbc.sqltiming - select * from tbl_board where no = 1 
+ {executed in 1 msec}
+INFO : jdbc.resultset - 1. ResultSet.new ResultSet returned 
+INFO : jdbc.resultset - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@4cb2918c - Field level information: 
+	com.mysql.cj.result.Field@72e295cc[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=no,originalColumnName=no,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@c2584d3[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=title,originalColumnName=title,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@6fa0450e[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=content,originalColumnName=content,mysqlType=252(FIELD_TYPE_TEXT),sqlType=-1,flags= BLOB, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@37468787[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=writer,originalColumnName=writer,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@51ec2856[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=reg_date,originalColumnName=reg_date,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@714f3da4[dbName=scoula_db,tableName=tbl_board,originalTableName=tbl_board,columnName=update_date,originalColumnName=update_date,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+INFO : jdbc.resultset - 1. ResultSet.getType() returned 1003
+INFO : jdbc.resultset - 1. ResultSet.next() returned true
+INFO : jdbc.resultset - 1. ResultSet.getLong(no) returned 1
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(title) returned 테스트 제목1
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getClob(content) returned com.mysql.cj.jdbc.Clob@1caa9eb6
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getString(writer) returned user00
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(reg_date) returned 2024-08-13 16:44:18.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultset - 1. ResultSet.getTimestamp(update_date) returned 2024-08-13 16:44:18.0
+INFO : jdbc.resultset - 1. ResultSet.wasNull() returned false
+INFO : jdbc.resultsettable - 
+|---|--------|---------|-------|----------------------|----------------------|
+|no |title   |content  |writer |reg_date              |update_date           |
+|---|--------|---------|-------|----------------------|----------------------|
+|1  |테스트 제목1 |[unread] |user00 |2024-08-13 16:44:18.0 |2024-08-13 16:44:18.0 |
+|---|--------|---------|-------|----------------------|----------------------|
+
+INFO : jdbc.resultset - 1. ResultSet.next() returned false
+INFO : jdbc.resultset - 1. ResultSet.close() returned void
+INFO : org.scoula.board.mapper.BoardMapperTest - BoardVO(no=1, title=테스트 제목1, content=테스트 내용1, writer=user00, regDate=Tue Aug 13 16:44:18 KST 2024, updateDate=Tue Aug 13 16:44:18 KST 2024)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at 2024. 8. 13. 오후 5:50:57</p>
+</div>
+</div>
+</body>
+</html>
