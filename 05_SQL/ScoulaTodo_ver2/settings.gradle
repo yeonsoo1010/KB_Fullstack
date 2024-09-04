@@ -1,0 +1,5 @@
+rootProject.name = 'ScoulaTodo_ver2'
+
+include ':ScoulaCli'
+project(':ScoulaCli').projectDir = new File('' +
+        'C:\\KB_Fullstack\\04_Java\\V8\\scoulacli')

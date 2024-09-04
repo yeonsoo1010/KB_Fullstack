@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c54ddfe-74c2-4a2e-99e0-04df43d1eb46" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/.idea/04_Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/CodingTest/CodingTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/CodingTest/src/baekjoon/DFSBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/CodingTest/src/baekjoon/괄호.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/CodingTest/src/baekjoon/스택.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/CodingTest/src/baekjoon/연결요소개수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/CodingTest/src/baekjoon/요세푸스.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/CodingTest/src/week2/올바른괄호/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/CodingTest/src/week3/BFS/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/V8/scoulacli/src/main/java/org/scoula/lib/cli/exception/BadMenuException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/.idea/libraries/lombok_1_18_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/CLI_Framework/V1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/CLI_Framework/V2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec03/exam02/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec03/exam02/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec03/exam02/SmartPhoneExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec04/exam01/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec04/exam01/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec04/exam01/ComputerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec04/exam02/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec04/exam02/SupersonicAirplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec04/exam02/SupersonicAirplaneExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec07/exam01/PromotionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec07/exam02/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec07/exam02/ChildExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec07/exam02/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec07/exam03/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec07/exam03/ChildExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch07/sec07/exam03/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec02/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec02/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec02/RemoteControlExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec02/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec04/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec04/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec04/RemoteControlExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec04/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec08/MultiInterfaceImplExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec08/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec08/Searchable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch08/sec08/SmartTelevision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch09/sec02/exam01/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch09/sec02/exam01/AExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch09/sec02/exam02/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch11/sec02/exam01/ExceptionHandlingExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch11/sec02/exam01/ExceptionHandlingExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch11/sec03/exam01/ExceptionHandlingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch11/sec03/exam03/ExceptionHandlingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch11/sec04/MyResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch11/sec04/TryWithResourceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch11/sec05/ThrowsExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch12/sec03/exam02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch12/sec03/exam04/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch12/sec03/exam04/RecordExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch12/sec03/exam05/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch12/sec04/GetPropertyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch12/sec04/MeasureRunTimeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch12/sec05/StringBuilderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch15/sec05/exam03/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec01/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec01/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec02/exam01/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec02/exam01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec02/exam01/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec03/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec03/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec03/Speakable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec03/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec04/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec04/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch16/sec04/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch17/sec01/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch17/sec03/StreamPipeLineExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch17/sec03/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch17/sec04/exam01/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch17/sec04/exam01/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch17/sec04/exam02/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/src/ch17/sec10/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04_Java/study/study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/src/main/java/org/scoula/todo/TodoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/src/main/java/org/scoula/todo/context/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/src/main/java/org/scoula/todo/exception/LoginFailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/src/main/java/org/scoula/todo/exception/PasswordMissmatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/src/main/java/org/scoula/todo/exception/UsernameDuplicateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/src/main/java/org/scoula/todo/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/src/main/java/org/scoula/todo/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo/todo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo_ver2/src/main/java/org/scoula/todo/dao/TodoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo_ver2/src/main/java/org/scoula/todo/dao/TodoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo_ver2/src/main/java/org/scoula/todo/domain/TodoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/ScoulaTodo_ver2/src/main/java/org/scoula/todo/service/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/jdbc_ex.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/main/java/org/scoula/jdbc_ex/common/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/main/java/org/scoula/jdbc_ex/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/main/java/org/scoula/jdbc_ex/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/main/java/org/scoula/jdbc_ex/domain/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/test/java/JUnitCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/test/java/JUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/test/java/org/scoula/jdbc_ex/common/JDBCUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/test/java/org/scoula/jdbc_ex/dao/UserDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/test/java/org/scoula/jdbc_ex/test/ConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_ex/src/test/java/org/scoula/jdbc_ex/test/CrudTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_practice/src/main/java/DB_test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_practice/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_practice/src/main/java/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_practice/src/main/java/MemberVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_practice/src/test/java/DB_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_practice/src/test/java/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/jdbc_practice/statement.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/mysql_project/test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05_SQL/travel/travel.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../package.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yeonsoo1010"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yeonsoo1010/KB_Fullstack.git",
+    "accountId": "80d28e36-4e55-4f16-99a0-9cbb5eebbfa6"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2lBL6aI3lu4ee62XyvOrDdv3dCh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c54ddfe-74c2-4a2e-99e0-04df43d1eb46" name="Changes" comment="" />
+      <created>1724648351250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724648351250</updated>
+      <workItem from="1724648352302" duration="61000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
